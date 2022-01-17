@@ -1,0 +1,78 @@
+
+body{
+    margin: 0; 
+    color: #fff;
+    padding: 0;
+    background-color: rgb(19 19 19);
+}
+.logo{
+    max-width: 10vh;
+    margin: 0 5%;
+}
+.divisao {
+    background-color: #fff;
+    height: 2px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: cursive;
+    margin: 20vh 15vh;
+}
+h1:hover {
+    transition: .2s;
+    color: rgb(173, 173, 173);
+}
+footer{
+    background: #202020;
+    top: 50vh;
+    height: 25vh;
+    position: relative;
+}
+
+
+.mensagem-final-1 {
+    display: flex;
+    color: #fff;
+    position: absolute;
+    flex-direction: column;
+    left: 50vh;
+}
+
+.mensagem-final-1 h2 {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    font-family: system-ui;
+}
+
+.mensagem-final-1 h3 {
+    top: 2vh;
+    position: relative;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.mensagem-final-2 {
+    display: flex;
+    width: 55vh;
+    color: #fff;
+    position: absolute;
+    flex-direction: column;
+    left: 130vh;
+}
+
+.mensagem-final-2 h2 {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    font-family: system-ui;
+}
+
+.mensagem-final-2 h3 {
+    top: 2vh;
+    position: relative;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
