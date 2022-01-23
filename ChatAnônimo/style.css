@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+/*  começo do header */
+.img-logo-menu {
+    max-width: 10vh;
+    margin-left: 5%;
+}
+
+.divisao {
+    background-color: #fff;
+    height: 1px;
+}
+/*  término do header */
+
+
+/*  comeeço do main */
+.mensagem-principal {
+    display: flex;
+    margin: 10% 5% 0;
+}
+
+.mensagem-principal h1 {
+    font-family: system-ui;
+    color: #fff;
+    font-size: 50px;
+}
+
+.imagens-principal {
+    display: flex;
+    width: 85vh;
+    position: relative;
+    left: 16vh;
+    top: 7vh;
+    flex-direction: row;
+    gap: 10vh;
+}
+
+.imagens-principal img {
+    max-width: 10vh;
+}
+
+.box-acesso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 60vh;
+    width: 70vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+.email-acesso, .senha-acesso {
+    width: 60vh;
+    height: 7vh;
+    border: 1px solid #000;
+    outline: 0;
+    position: relative;
+    border-radius: 2px;
+}
+
+.email-acesso {
+    position: relative;
+    top: 15%;
+}
+
+.senha-acesso {
+    position: relative;
+    top: 17%;
+}
+
+.link-botao-entrar {
+    height: 6vh;
+    width: 25vh;
+    position: relative;
+    top: 13vh;
+}
+
+.botao-entrar-main {
+    height: 6vh;
+    width: 25vh;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    background-color: #062a58;
+}
+
+.botao-entrar-main:hover {
+    cursor: pointer;
+    transition: .3s;
+    background-color: #07346c;
+}
+
+.botao-entrar-main h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.esq-senha {
+    position: relative;
+    top: 14vh;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.esq-senha:hover {
+    text-decoration: underline;
+    transition: .5s;   
+}
+
+.divisao-box {
+    height: 1px;
+    width: 45vh;
+    background-color: #b7b7b7;
+    position: relative;
+    top: 16vh;
+}
+
+.link-botao-isc {
+    height: 6vh;
+    width: 25vh;
+    position: relative;
+    top: 22vh;
+}
+
+.botao-isc-main {
+    height: 6vh;
+    width: 25vh;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.botao-isc-main:hover {
+    cursor: pointer;
+    transition: .3s;
+    background-color: #c7c7c7;
+}
+
+.botao-isc-main h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+/*  término do main */
+
+/*  começo do footer */
+.secao-final {
+    background: #202020;
+    top: 32vh;
+    height: 30vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mensagem-final-1, .mensagem-final-2 {
+    display: flex;
+    color: #fff;
+    position: relative;
+    flex-direction: column;
+    top: 5vh;
+    height: 15vh;
+}
+
+.mensagem-final-1 h2 {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    font-family: system-ui;
+}
+
+.mensagem-final-1 h3 {
+    top: 2vh;
+    position: relative;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.mensagem-final-2 h2 {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    font-family: system-ui;
+}
+
+.mensagem-final-2 h3 {
+    top: 2vh;
+    position: relative;
+    font-family: system-ui;
+    font-size: 15px;
+}
+/*  término do footer */
